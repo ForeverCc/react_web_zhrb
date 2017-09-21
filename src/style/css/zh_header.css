@@ -1,0 +1,54 @@
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 78px;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+.hd_wrap {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.zh_logo {
+    width: 220px;
+    height: 78px;
+    background: url(../images/top_logo.png) no-repeat 0 15px;
+}
+.zh_logo a {
+    height: 78px;
+    display: block;
+    font-size: 0;
+}
+
+.btn_wrap {
+    width: 260px;
+    height: 32px;
+    padding: 23px 10px;
+    margin-right: -35px;
+}
+
+.btn_wrap a {
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    width: 120px;
+    font-size: 16px;
+    text-align: center;;
+    color: #000;
+}
+.btn_wrap a:nth-of-type(1) {
+    float: left;
+}
+.btn_wrap a:nth-of-type(2) {
+    float: right;
+}
+
+.btn_wrap a.active {
+    background: #f0f9ff;
+    color: #008bed;
+    border-radius: 4px;
+}

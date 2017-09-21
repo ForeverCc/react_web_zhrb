@@ -1,0 +1,91 @@
+body {
+    background: #f6f6f6 !important;
+}
+
+h1 { margin: 0 !important;}
+#dt_header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    height: 60px;
+    background-color: #009dd7;
+    color: #FaFcFe;
+}
+
+.dt_hd_wrap {
+    width: 600px;
+    height: 60px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.dt_hd_wrap .logo_bg {
+    display: block;
+    width: 126px;
+    height: 60px;
+    background: url(../images/Web_Logo.png) no-repeat 0 9px;
+}
+
+#dt_main {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.dt_container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.img-wrap .headline-title {
+    margin: 20px 0;
+    bottom: 10px;
+    z-index: 1;
+    position: absolute;
+    color: white;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+/* download*/
+
+.download {
+    box-sizing: border-box;
+    width: 600px;
+    padding: 25px;
+    background-color: #fff;
+    text-align: center;
+    border-top: 5px solid #F6F6F6;
+}
+
+.download .dl_title {
+    font-size: 18px;
+    color: #555;
+}
+
+.download .dl_sub_title {
+    font-size: 14px;
+    color: #b8b8b8;
+}
+
+.download img {
+    width: 145px;
+    height: 145px;
+}
+
+
+/*底部*/
+
+.detail_footer {
+    padding: 20px 0;
+    text-align: center;
+    color: #b8b8b8;
+    font-size: 13px;
+}
+
+.detail_footer a {
+    color: #b8b8b8;
+}
+
+.detail_footer a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,173 @@
+/*
+    banner 部分
+*/
+
+#banner {
+    width: 100%;
+    padding-top: 78px;
+    background: #008bed;
+}
+
+.bn_wrap {
+    position: relative;
+    width: 960px;
+    height: 460px;
+    margin: 0 auto;
+}
+
+.bn_left {
+    position: absolute;
+    left: 30px;
+    bottom: 0;
+    z-index: 3;
+    width: 409px;
+    height: 448px;
+    overflow: hidden;
+}
+
+.bn_right {
+    position: relative;
+    width: 400px;
+    padding-top: 100px;
+    margin-right: 10px;
+}
+
+.bn_right h2 {
+    font-size: 0;
+    font-weight: bold;
+    height: 50px;
+    line-height: 40px;
+    color: transparent;
+    margin: 0 -5px 0 -5px;
+    background: transparent url(../images/slogan.png) no-repeat 0 0;
+    text-indent: -150%;
+}
+
+.bn_right p {
+    height: 100px;
+    font-size: 16px;
+    color: #99d1f8;
+    line-height: 24px;
+}
+
+.bn_right .qr_code {
+    float: left;
+    width: 145px;
+    height: 153px;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.bn_right .qr_code img {
+    margin: 8px 5px 0;
+}
+
+.btn_links {
+    width: 194px;
+    margin-left: 200px;
+}
+
+.btn_links_wrap>li:nth-of-type(1) {
+    margin-bottom: 25px;
+}
+
+.btn_links_wrap>li:nth-of-type(2) {
+    position: relative;
+}
+
+.dropdown {
+    position: absolute;
+    left: 0;
+    top: 64px;
+    z-index: 2;
+}
+
+.btn_links_wrap a:hover {
+    background-color: #f0f9ff;
+}
+
+
+/*
+    此处圆角显示鼠标移入和移除的圆角显示不同
+*/
+
+.btn_links_wrap a {
+    display: block;
+    padding-left: 55px;
+    padding-right: 35px;
+    width: 104px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    font-size: 22px;
+    color: #39442e;
+    background: #fff;
+}
+
+.btn_links_wrap a.ios {
+    background: url(../images/iphone_logo.png) no-repeat 8px 5px #fff;
+    border-radius: 4px;
+}
+
+.btn_links_wrap a.android {
+    border-radius: 4px;
+    background: url(../images/android_logo.png) no-repeat 8px 5px #fff;
+}
+
+.btn_links_wrap a.android:hover {
+    border-radius: 4px 4px 0 0;
+}
+
+.btn_links_wrap a.wdj {
+    background: url(../images/icon_wandoujia.png) no-repeat 8px 5px #fff;
+}
+
+.btn_links_wrap a.market91 {
+    background: url(../images/icon_91market.png) no-repeat 8px 5px #fff;
+}
+
+.btn_links_wrap a.market360 {
+    background: url(../images/icon_360market.png) no-repeat 8px 5px #fff;
+    border-radius: 0 0 4px 4px;
+}
+
+.btn_links_wrap a:hover {
+    background-color: #f0f9ff;
+}
+
+
+/*动画类*/
+
+.left_in {
+    position: relative;
+    width: 440px;
+    height: 460px;
+    overflow: hidden;
+}
+
+.right_in {
+    position: relative;
+}
+
+.b_to_t-appear {
+    opacity: 0.01;
+    bottom: -50px;
+}
+
+.b_to_t-appear.b_to_t-appear-active {
+    opacity: 1;
+    bottom: 0;
+    transition: all .8s ease-out;
+}
+
+.r_to_l-appear {
+    opacity: 0.01;
+    right: -50px;
+}
+
+.r_to_l-appear.r_to_l-appear-active {
+    opacity: 1;
+    right: 0;
+    transition: all 1.2s ease-out;
+}

@@ -1,0 +1,38 @@
+#footer {
+    color: #666;
+    background: #e5e5e5;
+    height: 265px;
+}
+
+.footer_wrap {
+    padding-top: 30px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.ft_info p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.ft_info p+p {
+    margin-top: 10px;
+}
+
+.qr_img_wrap {
+    border-radius: 3px;
+    background: #fff;
+    width: 145px;
+    height: 145px;
+    overflow: hidden;
+}
+
+.qr_img_wrap img {
+    margin: 5px;
+}
+.ft_qr p {
+    padding-top: 12px;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+/*
+    css reset
+*/
+
+/*css reset*/
+body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select { margin:0; padding:0; }
+em { font-style:normal; }
+li { list-style:none; }
+a { text-decoration:none;  }
+img { border:none; vertical-align:top; }
+table { border-collapse:collapse; }
+input,textarea { outline:none; border: none; }
+textarea { resize:none; overflow:auto; }
+body {font:14px/1.5 \5FAE\8F6F\96C5\9ED1, Tahoma;;background: #fff;}
+
+/*定义公共的样式类*/
+.fl {
+	float: left;
+	}
+.fr {
+	float: right;
+}
+.clearfix {
+	*zoom: 1;
+	}
+.clearfix:after {
+	content: '.';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	}
+body {
+	height: 2000px;
+	background: #f9f9f9;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
