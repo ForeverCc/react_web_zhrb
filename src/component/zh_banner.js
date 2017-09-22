@@ -30,12 +30,12 @@ class Banner extends React.Component {
                 <div id="banner">
                     <div className="bn_wrap clearfix">
                         <CSSTransitionGroup className="left_in fl" component="div" transitionName="b_to_t" transitionAppear={true} transitionAppearTimeout={800} transitionEnter={false} transitionLeave={false}>
-                            <div key={Math.random()} className="bn_left">
+                            <div className="bn_left">
                                 <img src={phoneSample} alt="phone_sample"/>
                             </div>
                         </CSSTransitionGroup>
                         <CSSTransitionGroup className="right_in fr" component="div" transitionName="r_to_l" transitionAppear={true} transitionAppearTimeout={1200} transitionEnter={false} transitionLeave={false}>
-                            <div key={Math.random()} className="bn_right fr">
+                            <div className="bn_right fr">
                                 <h2>每天三次 每次七分钟</h2>
                                 <p>在中国，资讯类移动应用的人均阅读时长是 5 分钟，而在知乎日报，这个数字是 21。</p>
                                 <div className="qr_code">
