@@ -16,12 +16,17 @@ class Header extends React.Component {
     }
 
     componentDidMount(){
-        window.addEventListener('scroll',()=>{
-            var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-            this.setState({
-                offset: scrollTop
-            });
-        },false);
+        window.addEventListener('scroll',this.handleScroll.bind(this));
+    }
+    handleScroll(){
+        var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        this.setState({
+            offset: scrollTop
+        });
+    }
+    componentWillUnmount(){
+        clearInterval(this.timer);
+        window.removeEventListener('scroll', this.handleScroll.bind(this));
     }
 
     scrollAn(targetPosition){
