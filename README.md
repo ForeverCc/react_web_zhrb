@@ -1,4 +1,4 @@
-# music-wyy
+# react-zhrb
 react构建的知乎日报web版
 技术：`react`+`react-router`+`webpack`+`fetch`  
 
