@@ -13,10 +13,11 @@ class Header extends React.Component {
             offset: 0
         };
         this.timer = null;//实例下挂载定时器
+        this.handleScroll  = this.handleScroll.bind(this);
     }
 
     componentDidMount(){
-        window.addEventListener('scroll',this.handleScroll.bind(this));
+        window.addEventListener('scroll',this.handleScroll);
     }
     handleScroll(){
         var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
@@ -26,7 +27,7 @@ class Header extends React.Component {
     }
     componentWillUnmount(){
         clearInterval(this.timer);
-        window.removeEventListener('scroll', this.handleScroll.bind(this));
+        window.removeEventListener('scroll', this.handleScroll);
     }
 
     scrollAn(targetPosition){
